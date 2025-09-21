@@ -1,7 +1,7 @@
 {
   "name": "nft_engine",
   "version": "1.0.0",
-  "description": "Dynamic NFT rendering engine for Friendship Chronicle",
+  "description": "Dynamic NFT rendering engine for the A-Time project",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
@@ -10,7 +10,8 @@
   "keywords": [
     "nft",
     "dynamic-nft",
-    "polygon"
+    "polygon",
+    "a-time"
   ],
   "author": "wuminghong1986",
   "license": "ISC",
