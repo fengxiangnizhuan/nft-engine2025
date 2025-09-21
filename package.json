@@ -1,15 +1,21 @@
 {
   "name": "nft_engine",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Dynamic NFT rendering engine for Friendship Chronicle",
+  "main": "api/index.js",
   "scripts": {
+    "start": "node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nft",
+    "dynamic-nft",
+    "polygon"
+  ],
+  "author": "wuminghong1986",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }

@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+
+# Local .env file
+.env
+.env.*
+
+# Temporary files
+/txt
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
