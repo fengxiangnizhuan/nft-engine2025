@@ -1,22 +1,19 @@
 {
-  "name": "nft_engine",
+  "name": "nft-engine-serverless",
   "version": "1.0.0",
-  "description": "Dynamic NFT rendering engine for the A-Time project",
-  "main": "api/index.js",
+  "description": "Serverless rendering engine for the A-Time NFT project",
+  "private": true, 
   "scripts": {
-    "start": "node api/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for serverless functions'"
   },
   "keywords": [
     "nft",
     "dynamic-nft",
     "polygon",
-    "a-time"
+    "a-time",
+    "serverless"
   ],
   "author": "wuminghong1986",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2"
-  }
+  "license": "ISC"
 }
