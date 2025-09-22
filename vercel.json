@@ -1,4 +1,14 @@
 {
   "version": 2,
-  "rewrites": []
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/metadata/:tokenId",
+      "destination": "/api/metadata/:tokenId"
+    }
+  ]
 }
